@@ -1,0 +1,32 @@
+{ 
+    "git.ignoreLimitWarning": true,
+    "editor.suggest.preview": true,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": false,
+    "markdown.preview.breaks": true,
+    "[markdown]": {
+      "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+      }
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "python.defaultInterpreterPath": "/home/vscode/anaconda3/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.autopep8Path": "/home/vscode/anaconda3/bin/autopep8",
+    "python.formatting.blackPath": "/home/vscode/anaconda3/bin/black",
+    "python.formatting.yapfPath": "/home/vscode/anaconda3/bin/yapf",
+    //"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
+    "python.linting.flake8Path": "/home/vscode/anaconda3/bin/flake8",
+    //"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
+    "python.linting.pycodestylePath": "/home/vscode/anaconda3/bin/pycodestyle",
+    "python.linting.pydocstylePath": "/home/vscode/anaconda3/bin/pydocstyle",
+    "python.linting.pylintPath": "/home/vscode/anaconda3/bin/pylinty"
+}
