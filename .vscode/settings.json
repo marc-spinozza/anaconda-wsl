@@ -7,6 +7,9 @@
     "editor.formatOnSave": true,
     "editor.semanticHighlighting.enabled": false,
     "markdown.preview.breaks": true,
+    "markdownlint.config": {
+      "no-bare-urls": false
+    },
     "[markdown]": {
       "editor.formatOnPaste": true,
       "editor.formatOnSave": true,
