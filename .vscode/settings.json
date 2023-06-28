@@ -8,6 +8,11 @@
     "editor.semanticHighlighting.enabled": false,
     "markdown.preview.breaks": true,
     "[markdown]": {
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+      },
       "editor.quickSuggestions": {
         "comments": "on",
         "strings": "on",
@@ -15,7 +20,9 @@
       }
     },
     "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
+      "editor.defaultFormatter": "vscode.html-language-features",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
     },
     "python.defaultInterpreterPath": "/home/vscode/anaconda3/bin/python",
     "python.linting.enabled": true,
